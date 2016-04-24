@@ -1,0 +1,4 @@
+#config.yaml
+libraries:
+- name: "django"
+  version: "1.9.5"
