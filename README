@@ -1,0 +1,23 @@
+- Update pip
+
+pip install --upgrade pip
+
+
+- Install virtualenv
+
+pip install virtualenv
+
+
+- Create virtual environment
+
+virtualenv pythonenv
+
+
+- Install packages
+
+pip install -r requirements.txt
+
+
+- Run debug server
+
+pythonenv\Scripts\python manage.py runserver
