@@ -5,6 +5,6 @@ app_root = os.path.dirname(__file__)
 sys.path.insert(0, os.path.join(app_root, 'virtualenv.bundle'))
 
 import sae
-from musicall.musicall import wsgi
+from musicall import wsgi
 
 application = sae.create_wsgi_app(wsgi.application)
